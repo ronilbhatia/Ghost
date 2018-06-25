@@ -1,5 +1,4 @@
 require_relative 'Players.rb'
-require "byebug"
 require 'Set'
 
 class Game
@@ -96,7 +95,6 @@ class Game
 end
 
 if __FILE__ == $PROGRAM_NAME
-  # debugger
   game= Game.new(Players.new("Ronil"), Players.new("John"))
   game.play
 end
